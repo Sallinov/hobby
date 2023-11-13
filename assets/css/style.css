@@ -400,7 +400,7 @@
         .video:active .video__wrap,
         .video:focus-within .video__wrap,
         .video:focus-visible .video__wrap,
-        .video:hover .video__wrap,
+        .video:hover.background::before,
         .video:focus.background::before,
         .video:active.background::before,
         .video:focus-within.background::before,
