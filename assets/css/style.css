@@ -396,7 +396,11 @@
 
     @media (hover: hover) {
         .video:hover .video__wrap,
-        .video:hover.background::before {
+        .video:focus .video__wrap,
+        .video:active .video__wrap,
+        .video:hover.background::before,
+        .video:focus-within .video__wrap,
+        .video:focus-visible .video__wrap {
             opacity: 0;
             visibility: hidden;
         }
