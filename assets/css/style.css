@@ -398,9 +398,13 @@
         .video:hover .video__wrap,
         .video:focus .video__wrap,
         .video:active .video__wrap,
-        .video:hover.background::before,
         .video:focus-within .video__wrap,
-        .video:focus-visible .video__wrap {
+        .video:focus-visible .video__wrap,
+        .video:hover .video__wrap,
+        .video:focus.background::before,
+        .video:active.background::before,
+        .video:focus-within.background::before,
+        .video:focus-visible.background::before {
             opacity: 0;
             visibility: hidden;
         }
